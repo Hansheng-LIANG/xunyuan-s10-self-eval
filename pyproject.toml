@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xunyuan-s10-self-eval"
+version = "1.0.0"
+description = "巡渊 S10 导航运控和巡检视频识别自评工具"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+runtime = ["mujoco==3.13.0", "numpy>=1.26", "opencv-python-headless>=4.10", "Pillow>=10"]
+
+[project.scripts]
+xunyuan-eval = "xunyuan_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xunyuan_eval*"]

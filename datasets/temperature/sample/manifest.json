@@ -1,0 +1,29 @@
+{
+  "source": "synthetic_display",
+  "subset_of": "temperature",
+  "samples_per_split": 10,
+  "counts": {
+    "train": {
+      "normal": 2,
+      "mixed": 2,
+      "unreadable": 2,
+      "occlusion": 2,
+      "blur": 2
+    },
+    "val": {
+      "blur": 2,
+      "mixed": 2,
+      "normal": 2,
+      "occlusion": 2,
+      "unreadable": 2
+    },
+    "test": {
+      "blur": 2,
+      "normal": 2,
+      "mixed": 2,
+      "occlusion": 2,
+      "unreadable": 2
+    }
+  },
+  "dataset_id": "temperature-sample"
+}

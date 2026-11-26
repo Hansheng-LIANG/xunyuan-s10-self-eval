@@ -1,0 +1,12 @@
+{
+  "dataset_id": "temperature",
+  "samples": 15000,
+  "images": 30000,
+  "archive": "xunyuan-s10-temperature.zip",
+  "release_tag": "datasets",
+  "extract_to": "datasets/temperature",
+  "license": "MIT",
+  "source": "synthetic_display",
+  "bytes": 1226796140,
+  "sha256": "8b58226b2bda6b30111c8728ff32113058489e254f8e7077edeaed35c09ce83f"
+}
